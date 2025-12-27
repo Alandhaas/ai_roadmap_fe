@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Light mode */
+:root {
+  --bg-main: #f8fafc;
+  --bg-navbar: #eef2f7;
+  --bg-sidebar: #eff6ff;
+  --border-subtle: #e5e7eb;
+  --text-primary: #1f2937;
+
+
+}
+
+/* Dark mode */
+.dark {
+  --bg-main: #0f172a;
+  --bg-navbar: #020617;
+  --bg-sidebar: #020617;
+  --border-subtle: #1e293b;
+  --text-primary: #e5e7eb;
+}
