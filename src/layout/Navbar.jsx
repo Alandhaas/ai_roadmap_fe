@@ -6,7 +6,6 @@ export default function Navbar({ sidebarOpen, onToggleSidebar }) {
     <header
       className="relative h-14 flex items-center px-4 transition-colors duration-300"
       style={{
-        backgroundColor: "var(--bg-main)",
         backgroundColor: "var(--bg-navbar)",
         color: "var(--text-primary)"
       }}

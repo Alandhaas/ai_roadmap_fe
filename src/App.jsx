@@ -6,6 +6,8 @@ import Users from "./pages/Users"
 import Settings from "./pages/Settings"
 import CreateUser from "./pages/CreateUser"
 
+import LLMPlayground from "./pages/LLMPlayground"
+
 export default function App() {
   return (
     <AppLayout>
@@ -14,6 +16,7 @@ export default function App() {
         <Route path="/users" element={<Users />} />
         <Route path="/users/create" element={<CreateUser />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/llm-playground" element={<LLMPlayground />} />
       </Routes>
     </AppLayout>
   )

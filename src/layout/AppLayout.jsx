@@ -7,7 +7,7 @@ export default function AppLayout({ children }) {
 
    return (
       <div
-         className="min-h-screen flex transition-colors duration-300"
+         className="min-h-screen flex transition-colors duration-300 overflow-hidden"
          style={{ backgroundColor: "var(--bg-main)", color: "var(--text-primary)" }}>
          {/* Sidebar */}
          <div
@@ -41,7 +41,7 @@ export default function AppLayout({ children }) {
                onToggleSidebar={() => setSidebarOpen((prev) => !prev)}
             />
 
-            <main className="flex-1 p-6 transition-all duration-300">{children}</main>
+            <main className="flex-1 transition-all duration-300">{children}</main>
          </div>
       </div>
    );

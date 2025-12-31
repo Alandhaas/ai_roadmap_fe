@@ -2,7 +2,8 @@ export const menu = [
   {
     section: "Main",
     items: [
-      { label: "Dashboard", path: "/" }
+      { label: "Dashboard", path: "/" },
+      { label: "LLM Playground", path: "/llm-playground" }
     ]
   },
   {
